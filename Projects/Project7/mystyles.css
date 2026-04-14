@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	background-color: #feeb97ff;
+	font-family: Georgia, serif;
+	font-size: 100%;
+	height: auto;
+}
+
+header {
+	width: 1200px;
+	height: 200px;
+	background-color: #034561ff;  
+	text-align: center;
+	padding-top: 35px;
+	border: medium gray;
+	margin: auto;
+}
+
+section {
+	width: 1200px;
+	background-image: url("Images/2colback.jpg");
+	background-repeat: repeat-y;
+	overflow: hidden;
+	border-right: medium gray;
+	border-left: medium gray;
+	margin: auto;
+}
+
+nav {
+	float: left;
+	width: 110px;
+	padding-left: 30px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+nav a {
+	border: 2px inset #CCC;
+	background-color: #034561ff;
+	line-height: 250%;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+	display: block;
+    text-align: center;
+}
+
+article {
+	width: 800px;
+	float: left;
+	margin-left: 200px;
+	padding: 20px;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	width: 1200px;
+	height: 80px;
+	border: medium gray;
+	background-color: #034561ff;
+	margin: auto;
+}
+
+.logoleft {
+	float: left;
+	padding-top: 1px;
+	padding-left: 70px;
+}
+
+h1 {
+	font: bold 1.5em Georgia, serif;
+	font-size: 350%;
+	text-shadow: .1em .1em .2em gray;
+	color: #034561ff;
+}
+
+h2 {
+  font-size: 200%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #034561ff;
+}
+
+h3 {
+	font-size: 200%;
+	text-transform: uppercase;
+	text-align: left;
+	color: #034561ff;
+}
+
+a:link{
+	color: #feeb97ff;
+}
+
+a:visited{
+	color: #0ABBFF;
+}
+
+a:hover{
+	color:#FF0700;
+}
+
+.thumbnailleft{
+	float: left;
+	padding-right: 50px;
+}
+
+.thumbnailright{
+	float: right;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #034561ff;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #4fb783ff;
+	color: #034561ff;
+	font-size: 1.5em;
+}
+
+td {
+	background-color: white;
+	color: #034561ff;
+}
+
+caption {
+	font-family: Georgia, serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	background-color: #4fb783ff;
+	color: #034561ff;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+#bottomText {
+    text-align: center;
+	font-size: 125%
+}
