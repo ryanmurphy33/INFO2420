@@ -1,30 +1,28 @@
-@charset "utf-8";
-/* CSS Document */
-
-body  {margin: 0;
-	background-image: url("Images/background.gif");
-	font-family: Arial, Helvetica, sans-serif;
-	height: auto;
+﻿body {
+	margin:0;
+	background-image:url('Images/background.gif');
+	font-family:Arial, Helvetica, sans-serif;
+	height:auto;
 }
 
 header {
-		width: 760px;
-		height: 150px;
-		background-color: #CCC;  
-		text-align: center;
-		padding-top: 10px;
-		border: dashed medium navy;
-		margin: auto;
+	width: 760px;
+	height: 150px;
+	background-color: #CCC;
+	text-align: center;
+	padding-top: 10px;
+	border: dashed medium navy;
+	margin:auto;
 }
 
 section {
-		width: 760px;
-		background-image: url("Images/inner_background.gif");
-		background-repeat: repeat-y;
-		overflow: hidden;
-		border-right: dashed medium navy;
-		border-left: dashed medium navy;
-		margin: auto;
+	width: 760px;
+	background-image:url('Images/inner_background.gif');
+	background-repeat:repeat-y;
+	overflow: hidden;
+	border-right: dashed medium navy;
+	border-left: dashed medium navy;
+	margin:auto;
 }
 
 nav {
@@ -56,7 +54,7 @@ footer {
 }
 
 nav a {
-	border: 2px inset #CCC;
+	border: 2px inset #ccc;
 	background-color: maroon;
 	line-height: 250%;
 	color: #FFF;
@@ -69,3 +67,4 @@ nav a:hover {
 	color: yellow;
 	border: 2px outset #CCC;
 }
+
