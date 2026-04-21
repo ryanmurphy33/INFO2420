@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Backyard Birds - Home</title>
+<title>Home</title>
 <link rel="stylesheet" href="mystyles.css">
 <script type="text/javascript" src="myscripts.js"></script>
 <style type="text/css"> 
@@ -40,12 +40,9 @@ font-style:italic;
 <body onload="preloadImages()">
 
 <header>
-<img src="Images/logo.jpg" alt="Logo" width="175" height="150" usemap="#logoMap" class="logoleft" id= "logo"
+<img src="Images/logo.jpg" id= "logo" class="logoleft" width="175" height="150" alt="Logo"
 	 onmouseover="this.src='Images/logo2.jpg';"
-     onmouseout="this.src='Images/logo.jpg';"/>
-<map name="logoMap">
-  <area shape="rect" coords="2,1,174,147" href="file:///C|/Users/ryanm/OneDrive/Documents/GitHub/INFO2420/Projects/Project8/index.html" alt="link to index.html">
-</map> 
+     onmouseout="this.src='Images/logo.jpg';"/> 
 <img src="Images/banner.png" width="574" height="150" alt="Banner"/>
 </header>	
 	
@@ -69,8 +66,6 @@ font-style:italic;
 	<hr/>
 	
 	<h2>Images</h2>
-	<p>Photos of the month:</p>
-	<p>Here are some of the best photos thatt were captured over the course of last month. Enjoy!</p>
 	<div id="thumbs">
 		<img src="Images/thumbnails/BaldEagleSm.jpg" alt="Bald Eagle" onmouseover="swapImage(0);" />
 		<img src="Images/thumbnails/Owl1Sm.jpg" alt="Owl" onmouseover="swapImage(1);" />
@@ -102,8 +97,8 @@ font-style:italic;
 	
 </footer>
 
-<!--<img id="theImage">-->
-<!--<div id="bottomText"></div>-->
+<img id="theImage">
+<div id="bottomText"></div>
 
 
 </body>

@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Home</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../mystyles.css">
+<script type="text/javascript" src="../myscripts.js"></script>
+<link rel="stylesheet" href="print.css" type="text/css" media="print"> 
+<style type="text/css"> 
+#thumbs, #image{
+width: 700px; 
+border: solid 1px #000; 
+text-align: center; 
+margin: 0 
+auto 0 
+auto; 
+color: #000; 
+background: #eee; 
+padding: 5px;
+}
+
+#thumbs {
+margin-top: 10px;
+}
+
+#thumbs img {
+border: solid 1px #000; 
+margin: 5px;
+}
+
+#image{
+height:400px;
+}
+
+.instructions{
+font-style:italic;
+}
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body onload="preloadImages()">
+
+<header>
+<img src="../Images/logo.jpg" id= "logo" class="logoleft" width="175" height="150" alt="Logo"
+	 onmouseover="this.src='Images/logo2.jpg';"
+     onmouseout="this.src='Images/logo.jpg';"/> 
+<img src="../Images/banner.png" width="574" height="150" alt="Banner"/>
+</header>	
+	
+<section>
+	<nav>
+		<a href="../Home.html">&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+		<a href="../AboutUs.html">&nbsp;About Us&nbsp;</a><br>
+		<a href="../Tributes.html">&nbsp;Tributes&nbsp;&nbsp;</a><br>
+		<a href="../Favorites.html">Favorites</a><br>
+		<a href="../Survey.html">&nbsp;Survey&nbsp;&nbsp;&nbsp;&nbsp;</a>
+	</nav>
+	<!-- TemplateBeginEditable name="article" -->
+	<article>
+	  <h2>Welcome</h2>
+	  <p>Welcome to Backyard Birds of Utah! <br>
+	    <br>
+	    If you love birdwatching like we do, you should enjoy looking around this site.  
+	    Take a look at our Bird Profiles and take the opportunity to complete our survey. </p>
+	  <hr/>
+	  <h2>Images</h2>
+	  <div id="thumbs"> <img src="../Images/thumbnails/BaldEagleSm.jpg" alt="Bald Eagle" onMouseOver="swapImage(0);" /> <img src="../Images/thumbnails/Owl1Sm.jpg" alt="Owl" onMouseOver="swapImage(1);" /> <img src="../Images/thumbnails/WoodDuckSm.jpg" alt="Wood Duck" onMouseOver="swapImage(2);" /> <img src="../Images/thumbnails/HeronSm.jpg" alt="Heron" onMouseOver="swapImage(3);" /> </div>
+	  <div id="image"> <img id="theImage2" src="../Images/fullSize/BaldEagleLg.jpg" alt="Bald Eagle" />
+	    <h3 id="bottomText2">Bald Eagle</h3>
+      </div>
+	  <br>
+	  <hr/>
+	  <h2>Tributes</h2>
+	  <p>"Wow!!! Who would have thought all these birds live in Utah. I was attracted to the Birds of Utah calendar because of the great horned owl on the cover...""
+	    more&gt;&gt; <br>
+	    <br>
+	    <img src="../Images/thumbnails/americangoldfinch3Sm.jpg" width="200" height="125" alt="Goldfinch"/></p>
+    </article>
+	<!-- TemplateEndEditable --></section>
+			
+	
+<footer>
+  <p>Contact Us: <a href="mailto:10792854@uvu.edu">10792854@uvu.edu</a></p>
+	<p>This web site has been created solely for educational purposes.</p>
+	
+</footer>
+
+<img id="theImage">
+<div id="bottomText"></div>
+
+
+</body>
+</html>
